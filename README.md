@@ -1,1 +1,1 @@
-Projeto: Front-end de uma página Web de um Centro equestre.
+Projeto: Front-end da página Web de um Centro equestre.
