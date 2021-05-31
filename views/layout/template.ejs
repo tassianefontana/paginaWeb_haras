@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haras Golden Horse</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <div><a href="/"><img src="/imagens/logotipo.png" class="logo" alt="logo"></a></div>
+        <nav class="menu">
+            <ul>
+                <a href="/"><li>Home</li></a>
+                <a href="/nossahistoria"><li>Nossa História</li></a>
+                <a href="/modalidades"><li>Modalidades</li></a>
+                <a href="/"><li>Serviços</li></a>
+                <a href="/"><li>Contato</li></a>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <%- include(`../${conteudo}`) %>
+        
+    <footer>
+
+        <div>
+            <h2>Centro Equestre Golden Horse</h2>
+            <img src="/imagens/ferradura.png" alt="">
+        </div>
+    </footer>
+    
+</body>
+</html>

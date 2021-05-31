@@ -1,0 +1,175 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    align-items: center;
+    color:rgb(68, 43, 5);
+    font-weight: bold;
+    
+}
+
+
+.logo{
+    width: 100px;
+    margin: 10px;
+    
+}
+
+.menu > ul{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: goldenrod;
+    border-radius: 10px;
+   
+}
+
+.menu > ul > a{
+    color:rgb(68, 43, 5);
+    text-decoration: none;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+}
+
+
+.menu > ul > a:hover{
+    background-color: rgba(255, 228, 196, 0.363);
+    border-radius: 10px;
+    
+}
+
+body{
+    background-color: antiquewhite;
+    
+    
+}
+
+.mainImg{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(156, 163, 108, 0.315);
+    
+}
+.mainImg > img{
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+ 
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.titulo > h1{
+    color:rgb(68, 43, 5);
+    font-size: 18pt;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+.ferradura{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+
+}
+
+.categorias > a > img{
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 400px;
+
+}
+
+footer{
+    background-color: chocolate;
+    color:rgb(68, 43, 5);
+    text-align: center;
+}
+
+ h2{
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer > div > img{
+    width: 50px;
+}
+
+.historia{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+    
+    
+
+}
+
+.historia > p{
+    max-width: 50%;
+    font-size: 18pt;
+    color:rgb(68, 43, 5);
+    text-indent: 2em;
+    text-align: justify;
+}
+
+
+
+.historia > img{
+    width: 30%;
+    border-radius: 20px;
+    
+}
+
+.modalidade{
+    display: flex;
+    justify-content: left;
+    margin: 50px;
+    width: 50%;
+    
+}
+
+.modalidade > div > h1{
+    text-align: center;
+    padding: 10px;
+    color:rgb(68, 43, 5);
+    font-size: 14pt;
+    font-weight: bold;
+
+}
+
+.modalidade > div > p{
+    padding: 10px;
+    color:rgb(68, 43, 5);
+    font-size: 12pt;
+    text-align: justify;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.modalidade > img{
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.modalidade > div{
+    
+}
